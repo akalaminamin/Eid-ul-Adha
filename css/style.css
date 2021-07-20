@@ -1,0 +1,301 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rancho', cursive;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/adha.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    
+}
+
+#hero .span{
+    margin-left: 600px;
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+#hero span{
+    letter-spacing: .9px;
+    font-size: 4vw;
+    word-spacing: 10px;
+    font-weight: 800;
+    visibility: visible;
+    display: inline-block;
+}
+
+#hero .move{
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    text-transform: capitalize;
+}
+
+#hero .move10{
+    animation: move10 2s linear 1; 
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move10{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move9{
+    animation: move9 2s linear 1; 
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move9{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move8{
+    margin-right: 10px;
+    animation: move8 2s linear 1; 
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move8{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move7{
+    animation: move7 2s linear 1; 
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move7{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+
+#hero .move6{
+    animation: move6 2s linear 1; 
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move6{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move5{
+    animation: move5 2s linear 1; 
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move5{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move4{
+    animation: move4 2s linear 1; 
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move4{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move3{
+    animation: move3 2s linear 1; 
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move3{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move2{
+    animation: move2 2s linear 1; 
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move2{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+#hero .move1{
+    animation: move1 2s linear 1; 
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move1{
+    0%{
+        transform: translateX(-1000px) translateY(400px) scale(3) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+        visibility: visible;
+    }
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    animation: comebottom 2s linear 1;
+    animation-delay: 5.5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+nav .logo > h2{
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@keyframes comebottom{
+    0%{
+        transform: translateY(700px) rotate(90deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0px) rotate(0eg);
+        visibility: visible;
+    }
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 12px 25px;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 25px;
+    transition: all ease .3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:active{
+    background: #fff;
+    color: #111;
+}
+nav ul .home{
+    background: #fff;
+    color: #111;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: #111;
+}
+
+#hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 500px;
+    animation: cometop 2s linear 1;
+    animation-delay: 7s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cometop{
+    0%{
+        transform: translateY(-1000px) rotate(120deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0) rotate(0deg);
+        visibility: visible;
+    }
+}
